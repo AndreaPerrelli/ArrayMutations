@@ -1,6 +1,6 @@
-def mutate_array(array_to_mutate):
+def mutate_array(local_array_to_mutate):
     local_mutated_array = []
-    for element in array_to_mutate:
+    for element in local_array_to_mutate:
         element = element * element
         local_mutated_array.append(element)
     return local_mutated_array
